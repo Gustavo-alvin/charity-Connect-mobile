@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">charity</string>
+    <string name="encontrar_ong">Catalogo de ongs</string>
+    <string name="explore_Sp">São Paulo</string>
+    <string name="explore_Ba">Bahia</string>
+    <string name="explore_Ce">Ceará</string>
+    <string name="explore_Al">Alagoas</string>
+    <string name="explore_Rj">Rio de Janeiro</string>
+    <string name="explore_Es">Espírito Santo</string>
+    <string name="explore_Go">Goiás</string>
+    <string name="explore_Mg">Minas Gerais</string>
+    <string name="hello_blank_fragment">Olá, fragmento em branco!</string>
+
+
+</resources>
