@@ -9,6 +9,9 @@
     <string name="explore_Es">Espírito Santo</string>
     <string name="explore_Go">Goiás</string>
     <string name="explore_Mg">Minas Gerais</string>
+    <string name="home">Home</string>
+    <string name="catalogo">catalo</string>
+    <string name="config">configuração</string>
     <string name="hello_blank_fragment">Olá, fragmento em branco!</string>
 
 

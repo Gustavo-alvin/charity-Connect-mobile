@@ -23,13 +23,13 @@ public class MainActivity extends AppCompatActivity {
 
             switch (item.getItemId()) {
 
-                case 1:
+                case R.id.home:
                     replaceFragment(new HomeFragment());
                     break;
-                case 2:
+                case R.id.catalogo:
                     replaceFragment(new CatalogoFragment());
                     break;
-                case 3:
+                case R.id.config:
                     replaceFragment(new ConfigFragment());
                     break;
             }
