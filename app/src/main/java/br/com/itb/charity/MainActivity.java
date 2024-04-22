@@ -22,14 +22,13 @@ public class MainActivity extends AppCompatActivity {
         binding.bottomNavigationView.setOnItemSelectedListener(item -> {
 
             switch (item.getItemId()) {
-
-                case R.id.home:
+                case R.id.menu_home:
                     replaceFragment(new HomeFragment());
                     break;
-                case R.id.catalogo:
+                case R.id.menu_catalogo:
                     replaceFragment(new CatalogoFragment());
                     break;
-                case R.id.config:
+                case R.id.menu_config:
                     replaceFragment(new ConfigFragment());
                     break;
             }

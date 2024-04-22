@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/menu_home">
+
+    <fragment
+        android:id="@+id/menu_home"
+        android:name="br.com.itb.charity.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_catalogoFragment"
+            app:destination="@id/menu_catalogo" />
+        <action
+            android:id="@+id/action_homeFragment_to_configFragment"
+            app:destination="@id/menu_config" />
+    </fragment>
+    <fragment
+        android:id="@+id/menu_config"
+        android:name="br.com.itb.charity.ConfigFragment"
+        android:label="fragment_config"
+        tools:layout="@layout/fragment_config" >
+        <action
+            android:id="@+id/action_configFragment_to_catalogoFragment"
+            app:destination="@id/menu_catalogo" />
+        <action
+            android:id="@+id/action_configFragment_to_homeFragment"
+            app:destination="@id/menu_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/menu_catalogo"
+        android:name="br.com.itb.charity.CatalogoFragment"
+        android:label="fragment_catalogo"
+        tools:layout="@layout/fragment_catalogo" >
+        <action
+            android:id="@+id/action_catalogoFragment_to_configFragment"
+            app:destination="@id/menu_config" />
+        <action
+            android:id="@+id/action_catalogoFragment_to_homeFragment"
+            app:destination="@id/menu_home" />
+    </fragment>
+</navigation>
