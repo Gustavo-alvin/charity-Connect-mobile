@@ -38,153 +38,62 @@
     <!--inicio dos cards do lado esquerdo-->
 
     <androidx.cardview.widget.CardView
-        android:layout_width="158dp"
-        android:layout_height="105dp"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="200dp"
-        android:backgroundTint="#881414" >
+        android:backgroundTint="#881414"
+        app:cardCornerRadius="20dp">
 
-        <TextView
-            android:id="@+id/Sp"
-            android:layout_width="150dp"
-            android:layout_height="20dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="3dp"
-            android:text="@string/explore_Sp"
-            android:textColor="#ffffff"
-            android:textSize="16dp"/>
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ongs_prancheta_1" />
     </androidx.cardview.widget.CardView>
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="158dp"
-        android:layout_height="105dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="325dp"
-        android:backgroundTint="#A32350" >
-
-        <TextView
-            android:id="@+id/Es"
-            android:layout_width="150dp"
-            android:layout_height="20dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="3dp"
-            android:text="@string/explore_Es"
-            android:textColor="#ffffff"
-            android:textSize="16dp"/>
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="158dp"
-        android:layout_height="105dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="450dp"
-        android:backgroundTint="#50145A" >
-
-        <TextView
-            android:id="@+id/Go"
-            android:layout_width="150dp"
-            android:layout_height="20dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="3dp"
-            android:text="@string/explore_Go"
-            android:textColor="#ffffff"
-            android:textSize="16dp"/>
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="158dp"
-        android:layout_height="105dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="575dp"
-        android:backgroundTint="#251488" >
-
-        <TextView
-            android:id="@+id/Mg"
-            android:layout_width="150dp"
-            android:layout_height="20dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="3dp"
-            android:text="@string/explore_Mg"
-            android:textColor="#ffffff"
-            android:textSize="16dp"/>
-    </androidx.cardview.widget.CardView>
     <!--fim dos cards do lado esquedo-->
 
     <!--inicio dos cards do lado direito-->
     <androidx.cardview.widget.CardView
-        android:layout_width="158dp"
-        android:layout_height="105dp"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
         android:layout_gravity="right"
         android:layout_marginTop="200dp"
         android:layout_marginRight="20dp"
-        android:backgroundTint="#0F5B85">
+        android:backgroundTint="#0F5B85"
+        app:cardCornerRadius="20dp">
 
-        <TextView
-            android:id="@+id/Rj"
-            android:layout_width="150dp"
-            android:layout_height="20dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="3dp"
-            android:text="@string/explore_Rj"
-            android:textColor="#ffffff"
-            android:textSize="16dp"/>
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ongs_02" />
+
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:layout_width="158dp"
-        android:layout_height="105dp"
-        android:layout_gravity="right"
-        android:layout_marginTop="325dp"
-        android:layout_marginRight="20dp"
-        android:backgroundTint="#0F8581">
+        android:layout_width="161dp"
+        android:layout_height="162dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="400dp"
+        android:backgroundTint="#881414"
+        app:cardCornerRadius="20dp">
 
-        <TextView
-            android:id="@+id/Al"
-            android:layout_width="150dp"
-            android:layout_height="20dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="3dp"
-            android:text="@string/explore_Al"
-            android:textColor="#ffffff"
-            android:textSize="16dp"/>
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ongs_prancheta_1" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_gravity="right"
+            android:visibility="invisible" />
     </androidx.cardview.widget.CardView>
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="158dp"
-        android:layout_height="105dp"
-        android:layout_gravity="right"
-        android:layout_marginTop="450dp"
-        android:layout_marginRight="20dp"
-        android:backgroundTint="#0F8548">
-
-        <TextView
-            android:id="@+id/Ce"
-            android:layout_width="150dp"
-            android:layout_height="20dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="3dp"
-            android:text="@string/explore_Ce"
-            android:textColor="#ffffff"
-            android:textSize="16dp"/>
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="158dp"
-        android:layout_height="105dp"
-        android:layout_gravity="right"
-        android:layout_marginTop="575dp"
-        android:layout_marginRight="20dp"
-        android:backgroundTint="#38850F">
-
-        <TextView
-            android:id="@+id/Ba"
-            android:layout_width="150dp"
-            android:layout_height="20dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="3dp"
-            android:text="@string/explore_Ba"
-            android:textColor="#ffffff"
-            android:textSize="16dp"/>
-    </androidx.cardview.widget.CardView>
 </FrameLayout>
 
