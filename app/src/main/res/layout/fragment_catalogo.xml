@@ -8,7 +8,7 @@
     tools:context=".fragments.CatalogoFragment">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/logo"
         android:layout_width="69dp"
         android:layout_height="67dp"
         android:src="@drawable/shortlogocharitycloset" />
@@ -46,7 +46,7 @@
         app:cardCornerRadius="20dp">
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/ong_coracao_generoso"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:src="@drawable/ongs_prancheta_1" />
@@ -65,7 +65,7 @@
         app:cardCornerRadius="20dp">
 
         <ImageView
-            android:id="@+id/imageView4"
+            android:id="@+id/sorrisos_do_amanha"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ongs_02" />
@@ -81,7 +81,7 @@
         app:cardCornerRadius="20dp">
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/ong_fds"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:src="@drawable/ongs_prancheta_1" />
