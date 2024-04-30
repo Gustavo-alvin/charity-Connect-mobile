@@ -15,11 +15,24 @@
         android:layout_marginTop="10dp"
         android:src="@drawable/shortlogocharitycloset" />
 
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="85dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:letterSpacing="0.2"
+        android:maxWidth="50dp"
+        android:text="@string/encontrar_ong"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
     <androidx.cardview.widget.CardView
         android:layout_width="300dp"
         android:layout_height="40dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="160dp"
         app:cardCornerRadius="20dp">
 
         <SearchView
@@ -30,22 +43,11 @@
 
     <!--inicio dos cards do lado esquerdo-->
 
-    <TextView
-        android:layout_width="400dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="85dp"
-        android:fontFamily="sans-serif-black"
-        android:gravity="center"
-        android:letterSpacing="0.2"
-        android:maxWidth="50dp"
-        android:text="@string/encontrar_ong"
-        android:textColor="#ffffff"
-        android:textSize="20sp" />
-
     <androidx.cardview.widget.CardView
+        android:id="@+id/ongs"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
         android:backgroundTint="#00000000"
         android:visibility="visible">
 
