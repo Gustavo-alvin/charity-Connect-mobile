@@ -12,19 +12,18 @@
         android:layout_width="69dp"
         android:layout_height="67dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
         android:src="@drawable/shortlogocharitycloset" />
 
     <androidx.cardview.widget.CardView
-        android:layout_width="360dp"
+        android:layout_width="300dp"
         android:layout_height="40dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="90dp"
         app:cardCornerRadius="20dp">
 
         <SearchView
-            android:layout_width="360dp"
+            android:layout_width="300dp"
             android:layout_height="40dp"
             android:layout_gravity="center_horizontal" />
     </androidx.cardview.widget.CardView>
@@ -35,7 +34,7 @@
         android:layout_width="400dp"
         android:layout_height="50dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="130dp"
+        android:layout_marginTop="140dp"
         android:fontFamily="sans-serif-black"
         android:gravity="center"
         android:letterSpacing="0.2"
