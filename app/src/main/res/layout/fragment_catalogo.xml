@@ -11,6 +11,7 @@
         android:id="@+id/logo"
         android:layout_width="69dp"
         android:layout_height="67dp"
+        android:layout_gravity="center_horizontal"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
         android:src="@drawable/shortlogocharitycloset" />
@@ -24,15 +25,16 @@
 
         <SearchView
             android:layout_width="360dp"
-            android:layout_height="40dp" />
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal" />
     </androidx.cardview.widget.CardView>
 
     <!--inicio dos cards do lado esquerdo-->
 
     <TextView
         android:layout_width="400dp"
-        android:layout_height="30dp"
-        android:layout_marginLeft="20dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="130dp"
         android:fontFamily="sans-serif-black"
         android:gravity="center"
@@ -40,11 +42,11 @@
         android:maxWidth="50dp"
         android:text="@string/encontrar_ong"
         android:textColor="#ffffff"
-        android:textSize="18dp" />
+        android:textSize="20sp" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:backgroundTint="#00000000"
         android:visibility="visible">
 
@@ -61,6 +63,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ongs_prancheta_1" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_gravity="right"
+                android:visibility="invisible"
+                tools:src="@drawable/ongs_04" />
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -77,6 +88,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ongs_02" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_gravity="right"
+                android:visibility="invisible"
+                tools:src="@drawable/ongs_04" />
 
         </androidx.cardview.widget.CardView>
 
